@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>AwesoMeme</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" />
+
+		<!-- Meu estilo -->
+		<link rel="stylesheet" href="css/myFuStyle.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<img src="img/Gentleman.png" style="float:left;" alt="Logo" />
+					<h1 style="display: inline;">AwesoMeme</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8">
+					<canvas id="vangogh" width="700px;" height="700px;" >
+						Sorry, your browser doesn't support the &lt;canvas&gt; element.
+					</canvas>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+					    <label for="inputFile">File input</label>
+					    <input type="file" id="inputFile">
+					    <p class="help-block">Please, choose an image. Or a giant rock will hit you!</p>
+					</div>
+					<div class="form-group">
+					    <label for="topLineText">First Line</label>
+					    <input id="topLineText" type="text" class="form-control" placeholder="Fun Text Here">
+					</div>
+					<div class="form-group">
+					    <label for="bottomLineText">Second Line</label>
+					    <input type="text" class="form-control" id="bottomLineText" placeholder="More Fun Text Here">
+					</div>
+
+					<button type="button" class="btn btn-default">Save</button>
+
+					<!-- Posicione esta tag onde você deseja que o botão +1 apareça.
+					<g:plusone size="tall"></g:plusone>-->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+							<a href="https://www.udacity.com/course/intro-to-html-and-css--ud304">
+				      	<img class="img-responsive" alt="Intro HTML5 and CSS" src="https://lh6.ggpht.com/KHjK8i_BBLXVYAverR73RvYt06rPk7JnKQWcUIyzMYUnVSPL_zC_asTuM-e69zkibagGRnC5u-bB04nPTQ=s276#w=1278&h=786" />
+							</a>
+				      <div class="caption">
+				        <h3 class="text-center">Intro HTML5 and CSS</h3>
+				      </div>
+				    </div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+							<a href="https://www.udacity.com/course/html5-canvas--ud292">
+				      <img class="img-responsive" alt="HTML5 Canvas" src="https://lh4.ggpht.com/eypKKAxmyK2LpMKULiQy76aAkS5M5-da0k9eUNP2HeK4bk7_ZgjAV65pAwSu-hjWM-sSwdUJkNeZAG8Wx8o=s276#w=1724&h=1060" />
+						</a>
+				      <div class="caption">
+				        <h3 class="text-center">HTML5 Canvas</h3>
+				      </div>
+				    </div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<a href="https://www.udacity.com/course/web-development--cs253">
+				      <img class="img-responsive" alt="Web Development" src="https://lh4.ggpht.com/FraZoWIlsBTNmgBjNwvDshsBj84aycbTS5wxWU1KocDigABnbxTbIo7DyYs_QKoC8xM00kxLGln0ckL5Huo=s277#w=436&h=268" />
+						</a>
+				      <div class="caption">
+				        <h3 class="text-center">Web Development</h3>
+				      </div>
+				    </div>
+				</div>
+			</div>
+		</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+		<!-- Posicione esta tag no cabeçalho ou imediatamente antes da tag de fechamento do corpo.
+		<script src="https://apis.google.com/js/platform.js" async defer>
+			{lang: 'pt-BR'}
+		</script>-->
+
+		<script src="js/vangogh.js" ></script>
+	</body>
+</html>
